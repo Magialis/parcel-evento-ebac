@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <img class="background background--desktop" src="./images/fundo desktop.png" alt="">
-    <img class="background background--tablet-mobile" src="./images/fundo tablet-mobile.png" alt="">
+    <img class="background background--desktop" src="./images/fundo-desktop.png" alt="">
+    <img class="background background--tablet-mobile" src="./images/fundo-tablet-mobile.png" alt="">
 
     <header class="hero">
         <div class="container">
@@ -61,12 +61,13 @@
                 <form id="form">
                     <div class="event__form__item">
                         <label for="nome" class="event__form__label text--big">Nome</label>
-                        <input id="nome" class="event__form__input text" type="text" placeholder="Digite seu nome completo">
+                        <input id="nome" class="event__form__input text" type="text"
+                            placeholder="Digite seu nome completo">
                     </div>
                     <div class="event__form__item">
                         <label for="convidados" class="event__form__label text--big">Convidados</label>
-                        <input id="convidados" class="event__form__input text" type="number" placeholder="Digite o número de pessoas que virão com você"
-                            min="1">
+                        <input id="convidados" class="event__form__input text" type="number"
+                            placeholder="Digite o número de pessoas que virão com você" min="1">
                     </div>
                     <div>
                         <button class="button button--secondary text--big">Enviar</button>
@@ -74,7 +75,10 @@
                 </form>
                 <div id="message" class="event__form__success-message text--big">Sua presença foi confirmada!</div>
             </div>
-            <h2 class="title--big text--cursive">Te espero lá!</h2>
+            <div class="event__message">
+                <h2 class="title--big text--cursive">Te espero lá</h2>
+                <img src="./images/icon-smile.svg" alt="">
+            </div>
         </div>
     </section>
 
