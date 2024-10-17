@@ -21,15 +21,19 @@
         box-shadow: 3px 4px 0px 1px #749463;
         margin-bottom: 100px;
 
+        &__title {
+            margin-top: 20px;
+        }
+
+        p {
+            padding: 10px 100px 0;
+        }
+
         &__item {
             display: flex;
             flex-direction: column;
             align-items: baseline;
             margin: 20px;
-        }
-
-        &__title {
-            margin-top: 20px;
         }
 
         &__label {
