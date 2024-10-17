@@ -1,0 +1,11 @@
+.infos-bar {
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    &__infos {
+        display: flex;
+        gap: 40px;
+    }
+}

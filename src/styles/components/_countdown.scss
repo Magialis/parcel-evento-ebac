@@ -1,0 +1,13 @@
+.countdown {
+    display: flex;
+    justify-content: center;
+
+    &__item {
+        background-color: #3F323F;
+        margin: 22px 10px;
+        padding: 6px 8px;
+        border-radius: 10px;
+        color: #fff;
+        box-shadow: 3px 4px 0px 1px #749463;
+    }
+}

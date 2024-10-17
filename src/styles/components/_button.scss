@@ -1,0 +1,36 @@
+.button {
+    border: 2px solid #3F323F;
+    padding: 15px;
+    color: #fff;
+    background: #DB4097;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 0px #749463;
+
+    img {
+        height: 40px;
+    }
+
+
+    &:focus {
+        transform: translateY(4px);
+        box-shadow: 1px 2px 0px 0px #936292;
+    }
+
+    
+    &--primary{
+        &:hover {
+            background-color:#ff72c2;
+        }
+    }
+    
+    &--secondary {
+        margin: 25px 0px;
+        width: 300px;
+        cursor: pointer;
+        
+        &:hover {
+            transform: translateY(-4px);
+            box-shadow: 5px 4px 1px 1px #749463;
+        }
+    }
+}

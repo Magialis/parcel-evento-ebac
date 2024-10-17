@@ -1,0 +1,13 @@
+.hero {
+    padding-top: 100px;
+
+    &__content {
+        padding: 40px 0;
+        background-color: rgba(255, 207, 255, .4);
+        border: 2px solid #3F323F;
+        border-radius: 20px;
+        box-shadow: 3px 4px 0px 1px #749463;
+        margin-bottom: 40px;
+    }
+
+}

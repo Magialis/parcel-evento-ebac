@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=WindSong:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+</head>
+
+<body>
+    <img class="background background--desktop" src="./images/fundo desktop.png" alt="">
+    <img class="background background--tablet-mobile" src="./images/fundo tablet-mobile.png" alt="">
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero__content title--big">
+                <p>Faltam</p>
+                <div class="countdown" id="contador">
+                    <div class="countdown__item" id="dias">00d</div>
+                    <div class="countdown__item" id="horas">00h</div>
+                    <div class="countdown__item" id="minutos">00m</div>
+                    <div class="countdown__item" id="segundos">00s</div>
+                </div>
+                <p>para o meu aniversário</p>
+            </div>
+
+            <h1 class="text--cursive">Venha celebrar comigo!</h1>
+
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item text">
+                        <p class="text--big">Data</p>
+                        11/11/2024 às 19hrs
+                    </li>
+                    <li class="infos-bar__infos__item text">
+                        <p class="text--big">Localização</p>
+                        Rua Exemplo, nº 123, São Paulo
+                    </li>
+                </ul>
+            </div>
+
+
+            <a href="#event" class="button button--primary title--small">
+                Confirmar presença
+                <img src="./images/icon-finger.svg" alt="">
+            </a>
+
+        </div>
+    </header>
+
+    <section class="event" id="event">
+        <div class="container">
+            <div class="event__form">
+                <h2 class="event__form__title title--big">Confirme sua presença</h2>
+                <p></p>
+                <form id="form">
+                    <div class="event__form__item">
+                        <label for="nome" class="event__form__label text--big">Nome</label>
+                        <input id="nome" class="event__form__input text" type="text" placeholder="Digite seu nome completo">
+                    </div>
+                    <div class="event__form__item">
+                        <label for="convidados" class="event__form__label text--big">Convidados</label>
+                        <input id="convidados" class="event__form__input text" type="number" placeholder="Digite o número de pessoas que virão com você"
+                            min="1">
+                    </div>
+                    <div>
+                        <button class="button button--secondary text--big">Enviar</button>
+                    </div>
+                </form>
+                <div id="message" class="event__form__success-message text--big">Sua presença foi confirmada!</div>
+            </div>
+            <h2 class="title--big text--cursive">Te espero lá!</h2>
+        </div>
+    </section>
+
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
